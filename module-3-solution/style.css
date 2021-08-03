@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#head{
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: bolder;
+}
+.navba{
+    background-color: grey;
+}
+.heading{
+    text-align: center;
+    font-size: 2.3rem;
+    font-style: italic;
+    margin-top: 5%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+  
+}
+.cont{
+    border: 2px solid black;
+    color: black;
+    background-color: gray;
+    margin: 2% 4%;
+    padding: 2% 2%;
+}
+.conthead{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.item ul{
+    align-items: center;
+}
+.item li a{
+    color: black;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.new{
+    background-color: grey;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: -0.5rem 1rem;
+    }
+    .new a {
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 2px 3%;
+    }
+    .new .btn{
+        border: 2px solid black;
+    }
+.bg{
+    background-color: white;
+  
+}
